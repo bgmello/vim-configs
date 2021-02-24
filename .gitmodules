@@ -1,0 +1,12 @@
+[submodule ".vim/pack/tpope/start/commentary"]
+	path = .vim/pack/tpope/start/commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule ".vim/pack/python-mode/start/python-mode"]
+	path = .vim/pack/python-mode/start/python-mode
+	url = https://github.com/python-mode/python-mode
+[submodule ".vim/pack/vendor/start/nerdtree"]
+	path = .vim/pack/vendor/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule ".vim/pack/vendor/start/simplylfold"]
+	path = .vim/pack/vendor/start/simplylfold
+	url = https://github.com/tmhedberg/SimpylFold
