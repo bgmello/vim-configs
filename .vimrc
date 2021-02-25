@@ -31,6 +31,8 @@ map <F3> :PymodeLintAuto<CR>
 "Remapeia para colapsar com espaco
 nnoremap <space> za
 vnoremap <space> zf
+nnoremap <ENTER> za
+vnoremap <ENTER> zf
 "Seta o tamanho maximo da linha em python
 let g:pymode_options_max_line_length = 150
 "Seta os parametros do fold
