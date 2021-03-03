@@ -9,9 +9,11 @@ nnoremap ; :
 vnoremap ; :
 "Mapeia shift v em vv para entrar em blovo visual
 nnoremap vv <s-v>
-"Mapeia crtl j e ctrl k para poder pular 15 linhas por vez
+"Mapeia crtl j,h,k,l para poder pular 15 linhas por vez
 noremap <c-j> 15gj
 noremap <c-k> 15gk
+noremap <c-h> 15gh
+noremap <c-l> 15gl
 "Mapeia shift k no modo normal para adicionar linha em branco em cima
 nnoremap <s-k> i<CR><ESC>
 "Mapeia ,. para esc para mudar para modo normal
