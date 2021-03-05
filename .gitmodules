@@ -9,4 +9,4 @@
 	url = https://github.com/preservim/nerdtree
 [submodule ".vim/pack/vendor/start/simplylfold"]
 	path = .vim/pack/vendor/start/simplylfold
-	url = https://github.com/tmhedberg/SimpylFold
+	url = https://github.com/tmhedberg/simpylfold
