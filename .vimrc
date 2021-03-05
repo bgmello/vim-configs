@@ -47,5 +47,3 @@ let g:pymode_options_max_line_length = 150
 "Seta os parametros do fold
 let g:SimpylFold_docstring_preview = 1
 let g:SimpylFold_fold_import = 0
-"Carrega todos os modulos
-:packloadall!
