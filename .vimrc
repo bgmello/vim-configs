@@ -40,6 +40,8 @@ nnoremap 4 $
 vnoremap 4 $
 nnoremap - _
 vnoremap - _
+"Remapeia para mudar palavra completa
+nnoremap miw diw"0P
 "Seta o tamanho maximo da linha em python
 let g:pymode_options_max_line_length = 150
 "Seta os parametros do fold
