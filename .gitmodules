@@ -1,8 +1,8 @@
-[submodule ".vim/pack/tpope/start/commentary"]
-	path = .vim/pack/tpope/start/commentary
+[submodule ".vim/pack/vendor/start/vim-commentary"]
+	path = .vim/pack/vendor/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
-[submodule ".vim/pack/python-mode/start/python-mode"]
-	path = .vim/pack/python-mode/start/python-mode
+[submodule ".vim/pack/vendor/start/python-mode"]
+	path = .vim/pack/vendor/start/python-mode
 	url = https://github.com/python-mode/python-mode
 [submodule ".vim/pack/vendor/start/nerdtree"]
 	path = .vim/pack/vendor/start/nerdtree
