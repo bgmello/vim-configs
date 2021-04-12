@@ -2,6 +2,10 @@ syntax on
 filetype indent plugin on
 set et ts=2 sw=0 sts=-1 ai nu hls cindent smarttab is
 set viminfo='100,<1000,s100,h
+set laststatus=2
+"Schema de cores
+set background=dark
+colorscheme PaperColor
 "Para usar o clibboard no vim
 set clipboard=unnamed
 "Mapeia ; em : para modo normal e visual para nao precisar usar o shift
@@ -9,11 +13,9 @@ nnoremap ; :
 vnoremap ; :
 "Mapeia shift v em vv para entrar em blovo visual
 nnoremap vv <s-v>
-"Mapeia crtl j,h,k,l para poder pular 15 linhas por vez
+"Mapeia crtl j,h para poder pular 15 linhas por vez
 noremap <c-j> 15gj
 noremap <c-k> 15gk
-noremap <c-h> 15gh
-noremap <c-l> 15gl
 "Mapeia shift k no modo normal para adicionar linha em branco em cima
 nnoremap <s-k> i<CR><ESC>
 "Mapeia ,. para esc para mudar para modo normal
@@ -35,9 +37,7 @@ nnoremap <space> za
 vnoremap <space> zf
 nnoremap <ENTER> za
 vnoremap <ENTER> zf
-"Remapeia $ e _
-nnoremap 4 $
-vnoremap 4 $
+"Remapeia _
 nnoremap - _
 vnoremap - _
 "Remapeia para mudar palavra completa
