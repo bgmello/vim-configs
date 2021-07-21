@@ -21,9 +21,9 @@ noremap <c-h> 5h
 noremap <c-l> 5l
 "Mapeia shift k no modo normal para adicionar linha em branco em cima
 nnoremap <s-k> i<CR><ESC>
-"Mapeia jj para esc para mudar para modo normal
-inoremap jj <esc>
-vnoremap jj <esc>
+"Mapeia ,. para esc para mudar para modo normal
+inoremap ,. <esc>
+vnoremap ,. <esc>
 "Mapeia = para ctrl w w para mudar de pagina
 nnoremap = <C-w>w
 "Mapeia ' para " no modo normal para acessar os registradores
