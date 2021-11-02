@@ -8,6 +8,8 @@ set background=dark
 colorscheme PaperColor
 "Para usar o clibboard no vim
 set clipboard=unnamed
+"Corrige comportamento do backspace
+set backspace=indent,eol,start
 "Mapeia ; em : para modo normal e visual para nao precisar usar o shift
 nnoremap ; :
 vnoremap ; :
